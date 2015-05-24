@@ -71,6 +71,14 @@ namespace WorkFlowRuleEngine.Tests
             Assert.AreEqual(rez, "JohnJohn");
         }
 
-        
+        [Test]
+        public void UsingBinarryExpression()
+        { }
+
+        [Test]
+        public void UsingCompiledFunctionForAssertion()
+        {
+            //Create a compiled function having a string inputlike "[Discount] = [Discount]*2"
+        }
     }
 }

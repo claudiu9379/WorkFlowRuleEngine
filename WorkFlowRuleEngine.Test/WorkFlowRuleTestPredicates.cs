@@ -54,7 +54,7 @@ namespace WorkFlowRuleEngine.Tests
             Rule<Order> orderRule = new Rule<Order>();
             rez = orderRule.Predicate(
               p => p.Condition("[Discount] == 0")
-                  .WhenFalse("[Discount] = 1 " )
+                  .WhenFalse(it=>it.Discount = 5 )
                   .WhenTrue("[Discount] = 2")
               ).Evaluate(Provider.Order);
 
