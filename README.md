@@ -26,3 +26,22 @@ How Do You Use It?
             Assert.AreEqual(rez, 2);
         }
 ```
+
+
+```csharp
+		[Test]
+        public void PredicateTestSimplePropertyExpression()
+        {
+
+            object rez = null;
+            Rule<Order> orderRule = new Rule<Order>();
+            rez = orderRule.Predicate(
+              p => p.Condition("[Discount] == 0")
+                  .WhenFalse("[Discount] = 1 " )
+                  .WhenTrue("[Discount] = 2")
+              ).Evaluate(Provider.Order);
+
+            Order response = (Order)rez;
+            Assert.AreEqual(response.Discount, 2);
+        }
+```
