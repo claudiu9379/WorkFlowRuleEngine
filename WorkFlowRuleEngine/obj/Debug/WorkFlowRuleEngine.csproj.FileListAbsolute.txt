@@ -1,0 +1,5 @@
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\bin\Debug\WorkFlowRuleEngine.dll
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\bin\Debug\WorkFlowRuleEngine.pdb
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\obj\Debug\WorkFlowRuleEngine.dll
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\obj\Debug\WorkFlowRuleEngine.pdb
+D:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\obj\Debug\WorkFlowRuleEngine.csprojResolveAssemblyReference.cache

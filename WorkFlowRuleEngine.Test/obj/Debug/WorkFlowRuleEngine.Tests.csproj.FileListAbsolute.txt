@@ -1,0 +1,9 @@
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\obj\Debug\WorkFlowRuleEngine.Tests.csprojResolveAssemblyReference.cache
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\WorkFlowRuleEngine.dll
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\WorkFlowRuleEngine.pdb
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\WorkFlowRuleEngine.Tests.dll
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\WorkFlowRuleEngine.Tests.pdb
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\obj\Debug\WorkFlowRuleEngine.Tests.dll
+d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\obj\Debug\WorkFlowRuleEngine.Tests.pdb
+D:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\nunit.framework.dll
+D:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\nunit.framework.xml

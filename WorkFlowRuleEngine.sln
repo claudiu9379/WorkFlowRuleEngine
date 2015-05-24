@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkFlowRuleEngine", "WorkFlowRuleEngine\WorkFlowRuleEngine.csproj", "{946FA78E-755F-4B7D-A3E0-CF49DAB5F713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkFlowRuleEngine.Tests", "WorkFlowRuleEngine.Test\WorkFlowRuleEngine.Tests.csproj", "{CA3934D4-0B2D-4667-9304-DA39699B4A58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D2378A0D-3CD9-483B-B88E-A0A2613760A0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{946FA78E-755F-4B7D-A3E0-CF49DAB5F713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946FA78E-755F-4B7D-A3E0-CF49DAB5F713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946FA78E-755F-4B7D-A3E0-CF49DAB5F713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946FA78E-755F-4B7D-A3E0-CF49DAB5F713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3934D4-0B2D-4667-9304-DA39699B4A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3934D4-0B2D-4667-9304-DA39699B4A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3934D4-0B2D-4667-9304-DA39699B4A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3934D4-0B2D-4667-9304-DA39699B4A58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

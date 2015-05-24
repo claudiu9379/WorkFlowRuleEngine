@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\WorkFlowRuleEngine.Tests.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-05-23" time="12:49:36">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="c:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="SF26" user="Claudiu" user-domain="RONET1" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\bin\Debug\WorkFlowRuleEngine.Tests.dll" executed="True" result="Failure" success="False" time="0.289" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="WorkFlowRuleEngine" executed="True" result="Failure" success="False" time="0.271" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.270" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="WorkFlowRuleTestBasicFields" executed="True" result="Failure" success="False" time="0.267" asserts="0">
+                <results>
+                  <test-case name="WorkFlowRuleEngine.Tests.WorkFlowRuleTestBasicFields.CompositePropertyRead" executed="True" result="Error" success="False" time="0.254" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                      <stack-trace><![CDATA[at WorkFlowRuleEngine.Rules.ExpressionField.CreateParameterForCurrentDataType() in d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\Rules\ExpressionField.cs:line 42
+at WorkFlowRuleEngine.Rules.ExpressionField.set_PropertyInfo(PropertyInfo value) in d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\Rules\ExpressionField.cs:line 25
+at WorkFlowRuleEngine.Rules.Rule`1.CreateExpressionFields(String expression, Int32 assertionIndex) in d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\Rules\Rule.cs:line 138
+at WorkFlowRuleEngine.Rules.Rule`1.ParseExpression(String expression) in d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\Rules\Rule.cs:line 105
+at WorkFlowRuleEngine.Rules.Rule`1.Expression(String expression) in d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine\Rules\Rule.cs:line 85
+at WorkFlowRuleEngine.Tests.WorkFlowRuleTestBasicFields.CompositePropertyRead() in d:\claudiu\Knowledge\RuleEngine\WorkFlowRuleEngine\WorkFlowRuleEngine.Test\WorkFlowRuleTest.Basic.Fields.cs:line 61
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
