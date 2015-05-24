@@ -74,6 +74,11 @@ namespace WorkFlowRuleEngine.Tests
         [Test]
         public void UsingBinarryExpression()
         { }
-        
+
+        [Test]
+        public void UsingCompiledFunctionForAssertion()
+        {
+ 
+        }
     }
 }
