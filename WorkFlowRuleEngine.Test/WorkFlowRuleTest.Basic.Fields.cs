@@ -78,7 +78,7 @@ namespace WorkFlowRuleEngine.Tests
         [Test]
         public void UsingCompiledFunctionForAssertion()
         {
- 
+            //Create a compiled function having a string inputlike "[Discount] = [Discount]*2"
         }
     }
 }
