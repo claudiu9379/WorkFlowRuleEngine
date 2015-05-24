@@ -45,3 +45,21 @@ How Do You Use It?
             Assert.AreEqual(response.Discount, 2);
         }
 ```
+
+
+```csharp
+		[Test]
+        public void ReusableRuleTest()
+        {
+            Rule<Order> orderRule = new Rule<Order>();
+            object rez = null;
+
+            orderRule.Expression("[Discount]==0");
+
+            for (int i = 0; i < 1000; i++)
+            {
+                rez = orderRule.Evaluate(Provider.Order);
+                Assert.AreEqual(rez, true);
+            }
+        }
+```

@@ -16,20 +16,18 @@ namespace WorkFlowRuleEngine.Tests
 
         
         [Test]
-        public void SimpleRule()
+        public void ReusableRuleTest()
         {
             Rule<Order> orderRule = new Rule<Order>();
             object rez = null;
 
             orderRule.Expression("[Discount]==0");
-            
 
-            for(int i=0;i<1000;i++)
+            for (int i = 0; i < 1000; i++)
             {
-               rez = orderRule.Evaluate(Provider.Order);
+                rez = orderRule.Evaluate(Provider.Order);
                 Assert.AreEqual(rez, true);
             }
-            
         }
 
         
