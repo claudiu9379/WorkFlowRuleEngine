@@ -71,6 +71,9 @@ namespace WorkFlowRuleEngine.Tests
             Assert.AreEqual(rez, "JohnJohn");
         }
 
+        [Test]
+        public void UsingBinarryExpression()
+        { }
         
     }
 }
