@@ -18,12 +18,12 @@ How Do You Use It?
 
 ```csharp
 		[Test]
-        public void OrderNoAssign()
+        public void CompositePropertyConcatenation()
         {
             Rule<Order> orderRule = new Rule<Order>();
 
-            var rez = orderRule.Expression("[OrderNo] = [OrderNo]+[OrderNo]").Evaluate(Provider.Order);
-            Assert.AreEqual(rez, 2);
+            var rez = orderRule.Expression("[Customer.FirstName]+[Customer.FirstName]").Evaluate(Provider.Order);
+            Assert.AreEqual(rez, "JohnJohn");
         }
 ```
 
