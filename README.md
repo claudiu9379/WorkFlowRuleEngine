@@ -15,3 +15,14 @@ How Do You Use It?
             Assert.AreEqual(rez, 2);
         }
 ```
+
+```csharp
+		[Test]
+        public void OrderNoAssign()
+        {
+            Rule<Order> orderRule = new Rule<Order>();
+
+            var rez = orderRule.Expression("[OrderNo] = [OrderNo]+[OrderNo]").Evaluate(Provider.Order);
+            Assert.AreEqual(rez, 2);
+        }
+```
