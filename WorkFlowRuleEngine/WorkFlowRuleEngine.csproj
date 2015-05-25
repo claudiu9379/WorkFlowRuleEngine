@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Facade\IExpressionParser.cs" />
     <Compile Include="Helpers\ReflectionHelpers.cs" />
+    <Compile Include="Parsers\FunctionExpressionParser.cs" />
+    <Compile Include="Parsers\DynamicExpressionParser.cs" />
     <Compile Include="Rules\ExpressionField.cs" />
     <Compile Include="Rules\ExpressionProperty.cs" />
     <Compile Include="Rules\PredicateRule.cs" />
@@ -49,7 +52,6 @@
     <Compile Include="Helpers\DynamicLibrary.Expressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

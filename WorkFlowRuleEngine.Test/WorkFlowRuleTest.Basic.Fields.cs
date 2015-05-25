@@ -35,6 +35,15 @@ namespace WorkFlowRuleEngine.Tests
             Assert.AreNotEqual(ex, null);
         }
 
+        //[Test]
+        //public void CodeProvider()
+        //{
+        //    Rule<Order> orderRule = new Rule<Order>();
+
+        //    var rez = orderRule.Expression("it=>it.Discount = 5").Evaluate(Provider.Order);
+        //    Assert.AreEqual(rez, 1);
+        //}
+
         [Test]
         public void OrderNoAdd()
         {
